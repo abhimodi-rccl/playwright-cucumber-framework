@@ -1,0 +1,1 @@
+[{"uid":"cb36a7d3871de61e","name":"Register new user and delete account","time":{"start":1770623408067,"stop":1770623416285,"duration":8218},"status":"passed","severity":"normal"},{"uid":"df2938d5ea85c4b8","name":"Login with valid credentials and delete account","time":{"start":1770623372358,"stop":1770623408065,"duration":35707},"status":"failed","severity":"normal"}]

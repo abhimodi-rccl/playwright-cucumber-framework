@@ -1,0 +1,17 @@
+import { defineConfig, devices } from '@playwright/test';
+import { config } from 'node:process';
+
+export default defineConfig({
+  testDir: './tests',
+  timeout: 30 * 1000,
+  expect: {
+    timeout: 5000
+  },
+  reporter: [['html', { open: 'never' }], ['list']],
+  use: {
+    browserName: 'chromium',
+    headless: false
+  
+  },
+});
+export { config };
