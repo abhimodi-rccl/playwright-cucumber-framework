@@ -35,7 +35,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                sh 'npx cucumber-js --tags @login'
+                sh 'npx cucumber-js'
             }
         }
 
